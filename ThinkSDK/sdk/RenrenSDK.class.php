@@ -28,7 +28,7 @@ class RenrenSDK extends ThinkOauth{
 	 * API根路径
 	 * @var string
 	 */
-	protected $ApiBase = 'http://api.renren.com/restserver.do';
+	protected $ApiBase = 'https://api.renren.com/v2/';
 
 	/**
 	 * 组装接口调用参数 并调用接口
